@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linear</title>
+    <!-- css  -->
+    <style>
+      body {
+        font-size: 50px;
+      }
+      /* direction - right to left  */
+      .box1 {
+        height: 200px;
+        background: linear-gradient(to left, red, green);
+      }
+      /* direction : diagonal */
+      .box2 {
+        height: 200px;
+        background: linear-gradient(to left bottom, blue, yellow);
+        margin: 20px 0px;
+      }
+      /* direction :angel */
+      .box3 {
+        height: 200px;
+        background: linear-gradient(50deg, red, blue);
+      }
+      /* Rainbow Background */
+      .box4 {
+        height: 200px;
+        background: linear-gradient(
+          90deg,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          indigo,
+          violet
+        );
+        margin: 20px 0px;
+      }
+      /* transparency */
+      .box5 {
+        height: 200px;
+        background: linear-gradient(
+          to right,
+          rgb(255, 0, 0),
+          rgba(255, 0, 0, 0)
+        );
+      }
+      /* repeating linear-gradient */
+      .box6 {
+        margin: 20px 0px;
+        height: 200px;
+        background: repeating-linear-gradient(45deg ,red, yellow 10%, green 20%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">direction - right to left</div>
+    <div class="box2">direction : diagonal</div>
+    <div class="box3">direction :angel</div>
+    <div class="box4">Rainbow Background</div>
+    <div class="box5">transparency</div>
+    <div class="box6">repeating linear-gradient</div>
+    <!-- <div class="box4">Rainbow Background</div> -->
+    <!-- <div class="box4">Rainbow Background</div> -->
+    <!-- <div class="box4">Rainbow Background</div> -->
+  </body>
+</html>
